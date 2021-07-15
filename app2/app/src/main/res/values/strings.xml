@@ -1,0 +1,291 @@
+<resources>
+    <string name="app_name">JASA FOTO VIDEO</string>
+
+    <string name="map_api_key">AIzaSyAaPJeUbzaACyvJhsjl601HMyoKnP8qOeI</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login Sekarang</string>
+    <string name="action_join">Gabung Sekarang</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Email tidak valid</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_incorrect_password">Password salah</string>
+    <string name="error_field_required">Field tidak boleh kosong</string>
+    <string name="permission_rationale">"Contacts permissions untuk menyelesaikan email."
+    </string>
+    <string name="title_activity_navigation_drawer">Home</string>
+
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="title_activity_wizard_activty">Aktivitas</string>
+    <string name="dummy_button">Tombol Dummy</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="do_not_have_and_account_create_account">Tidak punya akun? <b> Buat Akun </b></string>
+    <string name="already_have_and_account_create_account">Sudah punya akun? <b> Login Sekarang </b></string>
+    <string name="forgot_your_password">Lupa password anda?</string>
+
+    <string name="password_reset_link">Password reset link akan dikirim ke email anda setelah anda menekan recover</string>
+    <string name="you_agree_to_comply_with_the_supplemental_terms_amp_conditions_set_forth_in_this_agreement"><![CDATA[Anda setuju dengan Syarat dan Ketentuan]]></string>
+
+    <array name="business_category">
+        <item>Kategori Jasa</item>
+        <item>Videography</item>
+        <item>Photography</item>
+
+    </array>
+
+
+    <array name="business_sub_category">
+        <item>Sub KAteogri Jasa</item>
+        <item>Wedding Photography</item>
+        <item>Baby Shot</item>
+        <item>Prawedding</item>
+        <item>Event</item>
+        <item>Wisuda</item>
+        <item>Food Photography</item>
+        <item>Foto Produk</item>
+        <item>Foto Katalog</item>
+        <item>Foto Produk</item>
+        <item>Wedding Videography</item>
+        <item>PraWedding Videography</item>
+        <item>Youtube</item>
+        <item>Video Komersil</item>
+        <item>Event</item>
+
+    </array>
+    <array name="business_gender">
+        <item>Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </array>
+    <array name="review_time">
+        <item>Total Waktu Tunggu</item>
+        <item>1</item>
+    </array>
+    <array name="sort_appointment">
+        <item>Sort By:</item>
+        <item>ID</item>
+        <item>Penyedia Jasa</item>
+    </array>
+    <string name="title_activity_advance_search">pencarian</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="help_support">Bantuan</string>
+    <string name="terms_of_use">Syarat dan ketentuan</string>
+    <string name="advance_search">Advance Search</string>
+    <string name="all_categories">Semua Kategori</string>
+    <string name="sign_in_now">Login Sekarang</string>
+    <string name="logging_in">Sedang Masuk…</string>
+    <string name="sign_up">Mendaftarkan…</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="required_field">Field ini tidak boleh kosong!</string>
+    <string name="featured_provider">Penyedia Jasa</string>
+    <string name="regular_single_user">Pengguna Jasa</string>
+    <string name="company_professional">Penyedia Jasa</string>
+    <string name="make_appointment">Buat Pesanan</string>
+    <string name="tite_leave_review">Tinggalkan Review</string>
+    <string name="wizard_skip">Lewati</string>
+    <string name="wizard_join">Gabung</string>
+    <string name="tab_services">Pembayaran</string>
+    <string name="tab_business_hours">Jam Layanan</string>
+    <string name="tab_experience"></string>
+    <string name="tab_qualification"></string>
+    <string name="tab_certificates"><![CDATA[]]></string>
+    <string name="tab_languages"></string>
+    <string name="tab_amenities"><![CDATA[]]></string>
+    <string name="err_login_first">Login terlebih dahulu untuk memesan jasa.</string>
+    <string name="err_login_to_review">Login terlebih dahulu untuk mereview jasa.</string>
+    <string name="err_login_to_chat">Login terlebih dahulu untuk menghubungi penyedia jasa.</string>
+    <string name="err_session_expire_to_chat">Sesi habis tolong login kembali.</string>
+    <string name="err_login_to_fvrt">Login terlebih dahulu untuk menambahkan user ke favorit.</string>
+    <string name="tab_appointments">Pesanan Saya</string>
+    <string name="tab_contact_us">Hubungi Kami</string>
+    <string name="msg_logout">Anda yakin ingin keluar?</string>
+    <string name="title_yes">Ya</string>
+    <string name="title_no">Tidak</string>
+    <string name="title_category">Kategori</string>
+    <string name="title_country">Negara</string>
+    <string name="title_city">Kota</string>
+    <string name="title_sub_category">Jenis Jasa</string>
+    <string name="msg_select_category">Pilih kategori</string>
+    <string name="msg_select_country">Pilih Negara</string>
+    <string name="err_something_wrong">-</string>
+    <string name="err_no_internet">Tidak ada koneksi internet!</string>
+    <string name="msg_finalizing_appointment">Menyelesaikan pemesanan…</string>
+    <string name="msg_phone_verification">Verifikasi nomor telepon…</string>
+    <string name="code_not_valid">Kode yang dimasukkan salah!</string>
+    <string name="set_location">Set Lokasi</string>
+    <string name="welcome_amp_greetings"><![CDATA[Selamat datang]]></string>
+    <string name="an_ultimate_directory_for_service_providers">Pemesanan Jasa fotografi dan videografi</string>
+    <string name="register_as">Daftar Sebagai:</string>
+    <string name="your_name">Nama Anda</string>
+    <string name="msg_business">Penyedia Jasa</string>
+    <string name="msg_professional">Penyedia Jasa</string>
+    <string name="msg_company_title">Nama Jasa</string>
+    <string name="msg_phone">Nomor Telepon</string>
+    <string name="hint_retype_password">Masukkan Password Kembali</string>
+    <string name="btn_register_now">Daftar Sekarang</string>
+    <string name="hint_category">-</string>
+    <string name="start_your_search">Mulai Pencarian</string>
+    <string name="hint_keyword">Kata Kunci</string>
+    <string name="title_view_all"><![CDATA[Lihat Semua]]></string>
+    <string name="title_featured_listing">List</string>
+    <string name="title_top_categories">-</string>
+    <string name="title_advanced_search">Pencarian Lanjutan</string>
+    <string name="title_search_now">Cari</string>
+    <string name="title_register">Daftar</string>
+    <string name="title_login">Login</string>
+    <string name="title_my_appointments">Pesanan Saya</string>
+    <string name="title_my_appointments2">batalkan pesanan</string>
+    <string name="title_jobs">Pekerjaan</string>
+    <string name="title_inbox">Gbt</string>
+    <string name="title_about_us">Tentang Kami</string>
+    <string name="title_terms_of_use">Syarat dan Ketentuan</string>
+    <string name="title_help_amp_support"><![CDATA[Bantuan]]></string>
+    <string name="title_contact_support">Contact Support</string>
+    <string name="title_invite">Undang Teman</string>
+    <string name="title_rate">-</string>
+    <string name="title_logout">Logout</string>
+    <string name="title_general">Umum</string>
+    <string name="title_dashboard">Dasbor</string>
+    <string name="title_services">Layanan</string>
+    <string name="title_appointment_type">Tipe Jasa</string>
+    <string name="title_appointment_reason">Alasan Pesanan</string>
+
+    <string name="title_manage_services">Kelola Pembayaran</string>
+    <string name="title_manage_team">Kelola Tim</string>
+    <string name="title_manage_jobs">Kelola Pekrjaan</string>
+    <string name="title_manage_articles">Kelola Artikek</string>
+    <string name="title_manage_appointments">Kelola Pesanan</string>
+    <string name="title_favorite_listing">Favorit</string>
+    <string name="title_security_setting">Pengaturan Keamanan</string>
+    <string name="title_privacy_setting">Pengaturan Privasi</string>
+
+    <string name="no_vote">(review)</string>
+    <string name="make_appointement">Buat Pesanan</string>
+    <string name="txt_call">Hubungi:&#160;</string>
+    <string name="txt_search_by_keyword">pencarian berdasarkan katakunci</string>
+    <string name="title_website">Website</string>
+    <string name="title_email">Email Bukti Pembayaran</string>
+    <string name="select_time_slot">Pilih jam!</string>
+    <string name="msg_book_appointment">Booking Jasa…</string>
+    <string name="select_appointment_date">Pilih tanggal pelaksaan</string>
+    <string name="select_appointment_time">pilih jam pelaksanaan</string>
+    <string name="start_booking">Mulai Pemesanan</string>
+    <string name="txt_space_left">Tersedia:&#160;</string>
+    <string name="waiting_for_automatically_detect_an_sms_sent_to">Menunggu Verifikasi</string>
+    <string name="verify">Verifikasi</string>
+    <string name="enter_code_here">Masukkan kode disini</string>
+    <string name="title_resend">Kirim Kembali</string>
+    <string name="title_verify">Verifikasi</string>
+    <string name="enter_keyword">Masukkan Katakunci</string>
+    <string name="search_by_category">Masukkan Ktegori</string>
+    <string name="category">Kategori:</string>
+    <string name="sub_category">Jenis Jasa:</string>
+    <string name="search_by_location">Cari berdasarkan lokasi</string>
+    <string name="city">Kota:</string>
+    <string name="enter_zip_code">Masukkan kode pos</string>
+    <string name="search">Cari</string>
+    <string name="distance_in_miles">Jara k (km) &#160;</string>
+    <string name="msg_exit">Anda yakin ingin keluar?</string>
+    <string name="last_name">Harga Jasa</string>
+    <string name="first_name">Nama Depan</string>
+    <string name="version">Versi &#160;</string>
+    <string name="copyright_2017_the_listingo">Copyright @ 2018 Ferdi</string>
+    <string name="title_introduction">Deskripsi</string>
+    <string name="btn_direction">Arah</string>
+    <string name="who_we_are_amp_what_we_do"><![CDATA[Pelayanan]]></string>
+    <string name="txt_services">Pembayaran</string>
+    <string name="txt_business_hours">Jam layanan</string>
+    <string name="txt_experience"></string>
+    <string name="txt_qualification"></string>
+    <string name="txt_certificates_amp_awards"><![CDATA[]]></string>
+    <string name="txt_our_team"></string>
+    <string name="txt_languages"></string>
+    <string name="txt_amenities_amp_features"><![CDATA[]]></string>
+    <string name="txt_media"></string>
+    <string name="txt_downloads"></string>
+    <string name="txt_contact_us">Hubungi Kami</string>
+    <string name="dlg_msg_submit_review">Review…</string>
+    <string name="msg_select_wait_time">Masukkan waktu tunggu</string>
+    <string name="review_title">Judul review</string>
+    <string name="would_your_recommend">Apakah anda merekomendasikan?</string>
+    <string name="btn_yes">Ya</string>
+    <string name="btn_no">Tidak</string>
+    <string name="filter_by_date">Filter berdasarkan tanggal</string>
+    <string name="click_to_update_now_button_to_n_update_the_latest_added_details">Klik untuk mengubah</string>
+
+    <string name="description">Deskripsi</string>
+
+    <string name="title_leave_your_rating">Tinggalkan rating</string>
+    <string name="title_ease_of_appointment">Pemesanan</string>
+    <string name="title_promptness">Pemesanan</string>
+    <string name="title_courteous_staff"></string>
+    <string name="title_accurate_diagnosis"></string>
+    <string name="title_professional_manner"></string>
+    <string name="title_spends_time_with_me"></string>
+    <string name="title_follow_up_after_visit"></string>
+    <string name="title_work_knowledge"></string>
+    <string name="btn_submit">Submit</string>
+
+    <plurals name="numberOfVotes">
+        <item quantity="one">&#160;review</item>
+        <item quantity="other">&#160;review</item>
+    </plurals>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true"></string>
+    <string name="msg_update_services">Mengubah Jasa…</string>
+    <string name="title_reviews">Review</string>
+    <string name="msg_updating_fvrt">Mengubah Favorit…</string>
+    <string name="msg_updating_privacy">Mengubah Privasi…</string>
+
+    <string name="title_home">Home</string>
+    <string name="reject_appointment">Tolak pemesanan</string>
+    <string name="fetching_appointments">Mohon tunggu…</string>
+
+    <string name="click_to_update_privacy">Klik untuk \"Mengubah privasi\" Tombol untuk\n Ubah ke pengaturan awal</string>
+    <string name="click_to_update">Klik untuk \"Mengubah\" Tombol untuk \n ubah ke pengaturan awal</string>
+
+    <string name="update_privacy">Ubah privasi</string>
+    <string name="tlt_make_profile_photo_public">Buat foto profil untuk publik</string>
+    <string name="tlt_make_banner_photo_public">Buat banner untuk publik</string>
+    <string name="tlt_appointment_option">Pengaturan pemesanan</string>
+    <string name="tlt_contact_form">Form Kontak</string>
+    <string name="tlt_business_hours">Jam Bisnis</string>
+    <string name="tlt_show_services">Tampilkan Layanan</string>
+    <string name="tlt_show_team">Tampilkan tim</string>
+    <string name="tlt_show_gallery">Tampilkan portfolio</string>
+    <string name="tlt_show_videos">Tampilkan video</string>
+    <string name="loading_settings">Memuat…</string>
+    <string name="no_record_found">Tidak ditemukan</string>
+    <string name="update_now">Update sekarang</string>
+    <string name="txt_enter_message">Masukkan pesan</string>
+    <string name="tlt_done">Selesai</string>
+    <string name="select">Pilih</string>
+    <string name="clear_selection">Hapus pilihan</string>
+    <string name="no_data_available">tidak ada data tersedia</string>
+    <string name="add_your_services">Tambahkan layanan anda</string>
+    <string name="phone_num_verification">Verifikasi nomor telepon</string>
+    <string name="add_new">Tambah Baru +</string>
+    <string name="title_manage_appointments2">Pembatalan Pesanan</string>
+
+    <array name="service_price_type">
+        <item>Layanan</item>
+        <item>Sesi</item>
+
+    </array>
+
+    <string-array name="CountryCodes" >
+    <item>62,ID</item>
+    </string-array>
+</resources>

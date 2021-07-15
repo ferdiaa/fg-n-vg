@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/font_medium"
+        android:text="Alasan Penolakan"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <include layout="@layout/layout_single_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rectangle_background"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/rejection_title"
+                style="@style/AdvanceSearchEsitTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/field_height"
+                android:hint="Judul Penolakan" />
+
+            <include layout="@layout/layout_single_line" />
+
+
+            <EditText
+                android:id="@+id/rejection-description"
+                style="@style/AdvanceSearchTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="Deskripsi Penolakan"
+                android:minLines="5"
+                android:paddingTop="10dp" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/reject_now"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/field_height"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Tolak"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>
